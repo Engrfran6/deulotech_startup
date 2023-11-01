@@ -1,16 +1,18 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 export const OurProcess = () => {
   return (
-    <section className="Padding-custom" data-aos="fade-up" data-aos-delay={200}>
+    <section className="Padding-custom" data-aos="fade-upw" data-aos-delay={200}>
       <div className="section-title">
         <small>Our Process</small>
         <h4>See what our projects have to go through..!</h4>
       </div>
+
       <div className="container-fluid container-xl">
         <div className="MethodologyMain text-center">
           <div className="DiagramDiv">
-            <img
+            <Image
               className="b-lazy b-loader"
               src="/assets/img/assets-img/Diagram.svg"
               width={1276}
@@ -21,6 +23,7 @@ export const OurProcess = () => {
           </div>
         </div>
       </div>
+
       <div className="project-explore text-center">
         <Link href="/app-cost-calculator/index" className="btn custom-btn common-btn blue m-a-10">
           Estimate My App

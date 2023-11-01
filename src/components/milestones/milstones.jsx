@@ -28,7 +28,7 @@ export const MilstoneAchieved = () => {
               </div>
               <div
                 className="box-blue"
-                style={{backgroundColor: '#0D49B9'}}
+                style={{backgroundColor: '#397c93'}}
                 data-match-height="groupName">
                 <div className="bringDetails">
                   <p className="counter-num">
@@ -39,7 +39,7 @@ export const MilstoneAchieved = () => {
               </div>
               <div
                 className="box-blue"
-                style={{backgroundColor: '#1050C8'}}
+                style={{backgroundColor: '#3e7e93'}}
                 data-match-height="groupName">
                 <div className="bringDetails">
                   <p className="counter-num">
@@ -50,7 +50,7 @@ export const MilstoneAchieved = () => {
               </div>
               <div
                 className="box-blue box-res"
-                style={{backgroundColor: '#1559D8'}}
+                style={{backgroundColor: '#438095'}}
                 data-match-height="groupName">
                 <div className="bringDetails">
                   <p className="counter-num">
@@ -61,7 +61,7 @@ export const MilstoneAchieved = () => {
               </div>
               <div
                 className="box-blue box-res"
-                style={{backgroundColor: '#1E62E2'}}
+                style={{backgroundColor: '#4a8497'}}
                 data-match-height="groupName">
                 <div className="bringDetails">
                   <p className="counter-num">
@@ -72,7 +72,7 @@ export const MilstoneAchieved = () => {
               </div>
               <div
                 className="box-blue box-res1"
-                style={{backgroundColor: '#266AEC'}}
+                style={{backgroundColor: '#528a9c'}}
                 data-match-height="groupName">
                 <div className="bringDetails">
                   <p className="counter-num">
@@ -83,7 +83,7 @@ export const MilstoneAchieved = () => {
               </div>
               <div
                 className="box-blue box-res1"
-                style={{backgroundColor: '#3175F8'}}
+                style={{backgroundColor: '#5a8e9f'}}
                 data-match-height="groupName">
                 <div className="bringDetails">
                   <p className="counter-num">
