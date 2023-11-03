@@ -5,7 +5,7 @@ import {OurEngagementModels} from '@/components/our-engagement-model/our-engagem
 import {Testimonies} from '@/components/testimonies/testimonies';
 import {VideoPopup} from '@/components/video-popup/video-popup';
 import {OurProcess} from '@/components/our-process/our-process';
-import {OurExpertise} from '@/components/our-expertise/expertise';
+import {OurServicesTechnology} from '@/components/services-we-provide/service-technonogies';
 import {Projects} from '@/components/projects/projects';
 import Head from 'next/head';
 // import {Awards} from '@/components/awards/awards';
@@ -48,7 +48,7 @@ export default function Home() {
       </div>
       <Header />
       {/* <Awards /> */}
-      <OurExpertise />
+      <OurServicesTechnology />
       <Projects />
       <MilstoneAchieved />
       <OurProcess />

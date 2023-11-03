@@ -31,7 +31,7 @@ export const OurEngagementModels = () => {
                       <p className="benefityDatTag">Perks of going ahead with this model:</p>
                       <ul>
                         <li>Low Financial Risks</li>
-                        <li>Planning investments on the project's ROI</li>
+                        <li>Planning investments on the project&apos;s ROI</li>
                         <li>Flexibility to outsource projects</li>
                         <li>Control over the cost</li>
                         <li>Well-defined and static requirements</li>

@@ -24,7 +24,7 @@ export default function ContactUs() {
             <div className="container-fluid container-xl">
               <div className="row">
                 <div className="col-xs-12 col-sm-7 col-lg-6 d-flex flex-column justify-content-center">
-                  <h1 data-aos="fade-up">Need Deulotech's Help?</h1>
+                  <h1 data-aos="fade-up">Need Deulotech&apos;s Help?</h1>
                   <p className="technicallySub">
                     Just fill out information about your project requirements or job requirements in
                     the form given below and our rep will get back to you in a blink of an eye

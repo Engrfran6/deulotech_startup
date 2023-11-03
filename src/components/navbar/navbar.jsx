@@ -24,6 +24,10 @@ export const Navbar = () => {
     setShowDropdown2(false);
   };
 
+  const closeDropDown = () => {
+    setShowDropdown(false);
+    setShowDropdown2(false);
+  };
   return (
     <header id="header" className="header fixed-top landing-one header-scrolled">
       <div className="container-fluid d-flex align-items-center justify-content-between full-header">
@@ -44,14 +48,16 @@ export const Navbar = () => {
             loading="lazy"
           /> */}
 
-          <p className="scoll_downlogo">DWS1</p>
-          <p className="scoll_uplogo">DWS2</p>
+          <p className="scoll_downlogo">DEULOTECH</p>
+          <p className="scoll_uplogo" style={{fontWeight: 'bolder', fontSize: '1.5rem'}}>
+            DEULOTECH
+          </p>
         </Link>
 
-        <nav id="navbar" className="navbar">
+        <nav id="navbarddddd" className="navbar">
           <ul>
             <li>
-              <Link className="nav-link" href="/our-work">
+              <Link className="nav-link" href="/our-projects">
                 Projects
               </Link>
             </li>
@@ -59,10 +65,12 @@ export const Navbar = () => {
             <li
               className="dropdown mega-dropdown"
               onMouseEnter={handleDropdownMouseEnter}
-              onMouseLeave={handleDropdownMouseLeave}>
-              <Link href="/our-service">
-                <span className="service-link">Services</span>
+              onMouseLeave={handleDropdownMouseLeave}
+              onClick={closeDropDown}>
+              <Link className="nav-link" href="/service">
+                Services
               </Link>
+
               {showDropdown && (
                 <div className="mega-dropdown-menu">
                   <div className="dropdown-menuw">
@@ -263,8 +271,8 @@ export const Navbar = () => {
                           <div className="badgeslab">
                             <p className="badgeslabTitle">React Native Development</p>
                             <p>
-                              React Native lets you create truly native apps and doesn't compromise
-                              your users' experiences.
+                              React Native lets you create truly native apps and doesn&apos;t
+                              compromise your users experiences.
                             </p>
                           </div>
                         </div>
@@ -278,7 +286,7 @@ export const Navbar = () => {
               <div className="dropdown-menu">
                 <div className="flex-col-menu">
                   <div className="servicesDiv whyGroovyMenu">
-                    <p className="MegaSubTitle">We Are DWS</p>
+                    <p className="MegaSubTitle">We Are DeuLoTech</p>
                     <ul className="dropdown-menu-sub">
                       <li>
                         <Link href="//#">Plan the work and work the plan</Link>
@@ -401,10 +409,9 @@ export const Navbar = () => {
             <li
               className="dropdown mega-dropdown"
               onMouseEnter={handleDropdownMouseEnter2}
-              onMouseLeave={handleDropdownMouseLeave2}>
-              <Link href="/">
-                <span>Company</span>
-              </Link>
+              onMouseLeave={handleDropdownMouseLeave2}
+              onClick={closeDropDown}>
+              <Link href="/">Company</Link>
               {showDropdown2 && (
                 <div className="mega-dropdown-menu">
                   <div className="dropdown-menud">
@@ -415,7 +422,7 @@ export const Navbar = () => {
                         left: '-72.5rem',
                       }}>
                       <div className="servicesDiv whyGroovyMenu">
-                        <p className="MegaSubTitle">We Are DWS</p>
+                        <p className="MegaSubTitle">We Are DeuLoTech</p>
                         <ul className="dropdown-menu-sub">
                           <li>
                             <Link href="//#">Plan the work and work the plan</Link>
@@ -459,14 +466,14 @@ export const Navbar = () => {
                             </div>
                           </div>
                           <div className="comDiv">
-                            <p className="MegaSubTitle">Careers@DWS</p>
+                            <p className="MegaSubTitle">Careers@DeuLoTech</p>
                             <div className="flexRowMenu">
                               <ul className="dropdown-menu-sub">
                                 <li>
                                   <Link href="/career">Join Our Team</Link>
                                 </li>
                                 <li>
-                                  <Link href="/life-at-DWS">Life@DWS</Link>
+                                  <Link href="/life-at-DeuLoTech">Life@DeuLoTech</Link>
                                 </li>
                               </ul>
                             </div>

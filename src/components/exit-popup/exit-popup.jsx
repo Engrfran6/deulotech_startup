@@ -49,8 +49,8 @@ export const LoadJsAndExitPopUp = () => {
                     <div className="bgExitPopup_planing">
                       <h3>Planning to develop your own app? If only you know how much it costs.</h3>
                       <p>
-                        It's easy. Click on Start, answer a few simple questions, and find out how
-                        much your app development will cost.
+                        It&apos;s easy. Click on Start, answer a few simple questions, and find out
+                        how much your app development will cost.
                       </p>
                       <div className="claim">
                         <Link

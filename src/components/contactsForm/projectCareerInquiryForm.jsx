@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export const ProjectCareerInquiryForm = () => {
   return (
     <div id="getQuotein24H" className="contactFormMain">
@@ -207,8 +209,10 @@ export const ProjectCareerInquiryForm = () => {
                         <div className="form-group">
                           <div className="input-group mb-3">
                             <div className="input-group-prepend">
-                              <img
-                                src="assets/img/assets-img/contact-icon/upload-icon.svg"
+                              <Image
+                                width={100}
+                                height={100}
+                                src="/assets/img/assets-img/contact-icon/upload-icon.svg"
                                 alt="upload-icon"
                                 title="upload-icon"
                                 className="iconContact"
