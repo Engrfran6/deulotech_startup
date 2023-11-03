@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 export const ContactForm = () => {
@@ -98,15 +99,19 @@ export const ContactForm = () => {
                   </form>
                 </div>
               </div>
-              <img
+              <Image
+                width={100}
+                height={100}
                 className="ContactLineDark esterline"
-                src="frontend/web/dws-assets/img/assets-img/easter/sectionLineDark.png"
+                src="/frontend/web/dws-assets/img/assets-img/easter/sectionLineDark.png"
                 alt="sectionLineDark"
                 title="sectionLineDark"
               />
-              <img
+              <Image
+                width={100}
+                height={100}
                 className="ContactLineDark"
-                src="frontend/web/dws-assets/img/assets-img/easter/sectionLineblue.png"
+                src="/frontend/web/dws-assets/img/assets-img/easter/sectionLineblue.png"
                 alt="sectionLineDark"
                 title="sectionLineDark"
               />

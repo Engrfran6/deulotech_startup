@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export const ContactInquiryCards = () => {
   return (
     <section className="Padding-custom aos-init aos-animate" data-aos="fade-up">
@@ -29,7 +31,9 @@ export const ContactInquiryCards = () => {
                     </li>
                     <li>
                       <a href="tel:+2347038689224">
-                        <img
+                        <Image
+                          width={100}
+                          height={100}
                           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           data-src="https://www.groovyweb.co/assets/Image/assets-Image/contact-icon/india.svg"
                           alt="India"
@@ -66,7 +70,9 @@ export const ContactInquiryCards = () => {
                     </li>
                     <li>
                       <a target="_blank" href="tel:2347038689224">
-                        <img
+                        <Image
+                          width={100}
+                          height={100}
                           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                           data-src="https://www.groovyweb.co/assets/Image/assets-Image/contact-icon/indiaw.svg"
                           alt="India"

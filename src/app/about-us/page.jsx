@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function AboutUs() {
   return (
     <>
@@ -36,8 +38,10 @@ export default function AboutUs() {
                     data-aos-delay={200}>
                     <div className="heroVectorImg technologyvector">
                       <div className="VectorImgborder">
-                        <img
-                          src="assets/img/assets-img/About.svg"
+                        <Image
+                          width={100}
+                          height={100}
+                          src="/assets/img/assets-img/About.svg"
                           alt="Come to Deulotech When you think about Building your Digital Solutions"
                           title="Come to Deulotech When you think about Building your Digital Solutions"
                           className="img-fluid"
@@ -67,17 +71,16 @@ export default function AboutUs() {
                               </div>
                               <div className="subTextCategory">
                                 <p>
-                                  {' '}
                                   <span>I</span>n December 2015, Deulotech Web emerged as a fully
                                   grown IT services firm under the encouraging leadership of our
                                   founders who paved the Way to Excellence and Progress for their
-                                  team members to follow.{' '}
+                                  team members to follow.
                                 </p>
                                 <p>
                                   <span>W</span>e think of ourselves as Creators and we create every
                                   products with utmost care, passion, and we see to it that they
                                   perform well. We are very passionate and curious to adapt to
-                                  modern technologies that can make your products more enhanced.{' '}
+                                  modern technologies that can make your products more enhanced.
                                 </p>
                               </div>
                             </section>
@@ -96,8 +99,7 @@ export default function AboutUs() {
                               </div>
                               <div className="subTextCategory">
                                 <p>
-                                  {' '}
-                                  <span>G</span>roovy's designers and developers follow the
+                                  <span>D</span>WS&apos;s designers and developers follow the
                                   streamlined development process to construct the bridge that
                                   literally connects your idea of building a digital solution to a
                                   working, reliable, user-friendly, and secure model for your
@@ -210,8 +212,8 @@ export default function AboutUs() {
                         <p>
                           Lack in communication in the beginning brings probable inaccuracy
                           midstream which is something we avoid at any cost. So, sometime over
-                          communication can be boring, but trust us, it's necessary for streamlined,
-                          secure, and errorless development.
+                          communication can be boring, but trust us, it&apos;s necessary for
+                          streamlined, secure, and errorless development.
                         </p>
                       </div>
                     </div>
@@ -223,8 +225,8 @@ export default function AboutUs() {
                         <p className="service-box-title">Passion to take up any challenge</p>
                         <p>
                           We are a team of very curious and challenge-loving resources. We take
-                          "Everything is possible" very seriously and we never rest until we come up
-                          with the required solutions. Our job is to satisfy your complex
+                          &apos;Everything is possible&apos; very seriously and we never rest until
+                          we come up with the required solutions. Our job is to satisfy your complex
                           requirements with our services and we never back down from our job.
                         </p>
                       </div>
@@ -235,13 +237,13 @@ export default function AboutUs() {
                           <i className="icon-support" />
                         </div>
                         <p className="service-box-title">
-                          Undivided Attention and Care for every Projects{' '}
+                          Undivided Attention and Care for every Projects
                         </p>
                         <p>
-                          We don't judge our work based on industry type, client size, and amount
-                          quoted. Our teams with dedicated team leaders are assigned with projects
-                          based on the skill requirements and availability of the resources using
-                          best-in-class project management tools
+                          We don&apos;t judge our work based on industry type, client size, and
+                          amount quoted. Our teams with dedicated team leaders are assigned with
+                          projects based on the skill requirements and availability of the resources
+                          using best-in-class project management tools
                         </p>
                       </div>
                     </div>
@@ -275,7 +277,6 @@ export default function AboutUs() {
                                 </div>
                                 <div className="subTextCategory">
                                   <p>
-                                    {' '}
                                     <span>W</span>e believe to reach at a place where our services
                                     will be highly regarded by businesses from various industrial
                                     domains for building their innovative busines solutions with our
@@ -299,7 +300,6 @@ export default function AboutUs() {
                                 </div>
                                 <div className="subTextCategory">
                                   <p>
-                                    {' '}
                                     <span>W</span>e want to help businesses ranging from startups to
                                     enterprises, who reach out to us with their requirements, in
                                     achieving great lengths, expanding their reach, upscaling their
@@ -329,8 +329,10 @@ export default function AboutUs() {
                   <div className="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                     <div className="teamLeadbox">
                       <div className="teamLeadImg">
-                        <img
-                          src="uploads/team/1667989641-Krunalbhai.png"
+                        <Image
+                          width={100}
+                          height={100}
+                          src="../../uploads/team/1667989641-Krunalbhai.png"
                           alt="Krunal Panchal"
                           title="Krunal Panchal"
                           className="profileImg"
@@ -345,8 +347,10 @@ export default function AboutUs() {
                   <div className="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                     <div className="teamLeadbox">
                       <div className="teamLeadImg">
-                        <img
-                          src="uploads/team/1667989656-Sagarbhai.png"
+                        <Image
+                          width={100}
+                          height={100}
+                          src="../../uploads/team/1667989656-Sagarbhai.png"
                           alt="Sagar Patel"
                           title="Sagar Patel"
                           className="profileImg"
@@ -363,8 +367,10 @@ export default function AboutUs() {
                   <div className="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                     <div className="teamLeadbox">
                       <div className="teamLeadImg">
-                        <img
-                          src="uploads/team/1629690874-rahul.png"
+                        <Image
+                          width={100}
+                          height={100}
+                          src="../../uploads/team/1629690874-rahul.png"
                           alt="Rahul Motwani"
                           title="Rahul Motwani"
                           className="profileImg"
@@ -379,8 +385,10 @@ export default function AboutUs() {
                   <div className="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                     <div className="teamLeadbox">
                       <div className="teamLeadImg">
-                        <img
-                          src="uploads/team/1629690897-naumna.png"
+                        <Image
+                          width={100}
+                          height={100}
+                          src="../../uploads/team/1629690897-naumna.png"
                           alt="Nauman Pathan"
                           title="Nauman Pathan"
                           className="profileImg"
@@ -395,8 +403,10 @@ export default function AboutUs() {
                   <div className="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                     <div className="teamLeadbox">
                       <div className="teamLeadImg">
-                        <img
-                          src="uploads/team/1629690883-ashok.png"
+                        <Image
+                          width={100}
+                          height={100}
+                          src="../../uploads/team/1629690883-ashok.png"
                           alt="Ashok Sachdev"
                           title="Ashok Sachdev"
                           className="profileImg"
@@ -427,8 +437,10 @@ export default function AboutUs() {
                           <div className="testpicClint">
                             <a>
                               <div className="imgDivclint">
-                                <img
-                                  src="uploads/testimony/1687329065-Sam.png"
+                                <Image
+                                  width={100}
+                                  height={100}
+                                  src="../../uploads/testimony/1687329065-Sam.png"
                                   alt="Client Testimonials"
                                   title="Client Testimonials"
                                   className="profileuser"
@@ -470,8 +482,10 @@ export default function AboutUs() {
                           <div className="testpicClint">
                             <a>
                               <div className="imgDivclint">
-                                <img
-                                  src="uploads/testimony/1629288211-Abdulla_Hussain-min.jpeg"
+                                <Image
+                                  width={100}
+                                  height={100}
+                                  src="../../uploads/testimony/1629288211-Abdulla_Hussain-min.jpeg"
                                   alt="Client Testimonials"
                                   title="Client Testimonials"
                                   className="profileuser"
@@ -491,7 +505,7 @@ export default function AboutUs() {
                           <p className="clintFeeds">
                             Working with Krunal and the team was a breeze! An extremely hardworking
                             and supportive team that you can rely on. More work lined up for the
-                            team.{' '}
+                            team.
                           </p>
                           <div className="quotationbottom">
                             <i className="icon-quotation-bottom" />
@@ -509,8 +523,10 @@ export default function AboutUs() {
                           <div className="testpicClint">
                             <a>
                               <div className="imgDivclint">
-                                <img
-                                  src="uploads/testimony/1687169931-Mihir-Thaker.png"
+                                <Image
+                                  width={100}
+                                  height={100}
+                                  src="../../uploads/testimony/1687169931-Mihir-Thaker.png"
                                   alt="Client Testimonials"
                                   title="Client Testimonials"
                                   className="profileuser"
@@ -530,12 +546,13 @@ export default function AboutUs() {
                           <p className="clintFeeds">
                             We were looking for a development partner who could understand our
                             comprehensive scope of work and bring our product from idealization to
-                            realization. Deulotech Web reflected "Trust and Confidence," and the key
-                            reason I awarded this project to Deulotech Web were that they promote
-                            local talents and give them opportunities to outgrow themselves.
-                            Deulotech Web went above and beyond and constantly supported changes to
-                            the initial scope of work. Deulotech Web is now our development partner,
-                            and I highly recommend them for any custom development requirements.
+                            realization. Deulotech Web reflected &apos;Trust and Confidence,&apos;
+                            and the key reason I awarded this project to Deulotech Web were that
+                            they promote local talents and give them opportunities to outgrow
+                            themselves. Deulotech Web went above and beyond and constantly supported
+                            changes to the initial scope of work. Deulotech Web is now our
+                            development partner, and I highly recommend them for any custom
+                            development requirements.
                           </p>
                           <div className="quotationbottom">
                             <i className="icon-quotation-bottom" />
@@ -657,15 +674,19 @@ export default function AboutUs() {
                     </form>
                   </div>
                 </div>
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   className="ContactLineDark esterline"
-                  src="frontend/web/dws-assets/img/assets-img/easter/sectionLineDark.png"
+                  src="/frontend/web/dws-assets/img/assets-img/easter/sectionLineDark.png"
                   alt="sectionLineDark"
                   title="sectionLineDark"
                 />
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   className="ContactLineDark"
-                  src="frontend/web/dws-assets/img/assets-img/easter/sectionLineblue.png"
+                  src="/frontend/web/dws-assets/img/assets-img/easter/sectionLineblue.png"
                   alt="sectionLineDark"
                   title="sectionLineDark"
                 />

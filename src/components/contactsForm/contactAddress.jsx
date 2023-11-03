@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export const ContactAddress = () => {
   return (
     <section className="Padding-custom aos-init aos-animate pb-100" data-aos="fade-up">
@@ -68,8 +70,10 @@ export const ContactAddress = () => {
               <div className="addresDetails">
                 <div className="AddFooter">
                   <div className="iconAdd">
-                    <img
-                      src="assets/Image/brandenburg-gate.png"
+                    <Image
+                      width={100}
+                      height={100}
+                      src="/assets/Image/brandenburg-gate.png"
                       alt=""
                       loading="lazy"
                       style={{height: 50, width: 'auto', objectFit: 'cover'}}
